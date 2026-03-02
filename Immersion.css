@@ -33,6 +33,10 @@ body {
     text-align: center;
 }
 
+.main-content {
+    width: 100%; /* Make main content full width too */
+  }
+
 .profile-container h3 {
     margin: 15px 0 5px 0;
     font-size: 1.2rem;
@@ -195,6 +199,7 @@ h1 {
 
 .portfolio-text {
     flex: 2; /* Gives the text more space */
+    text-align: justify;
 }
 
 .portfolio-qr {
@@ -270,6 +275,7 @@ h1 {
 .resume-text p {
     margin-bottom: 15px;
     line-height: 1.8;
+    text-align: justify;
 }
 
 /* Mobile Responsive */
@@ -278,4 +284,5 @@ h1 {
         flex-direction: column;
         text-align: center;
     }
+
 }
