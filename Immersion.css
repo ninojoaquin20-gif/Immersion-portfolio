@@ -286,3 +286,64 @@ h1 {
     }
 
 }
+
+/* =========================
+   MOBILE RESPONSIVE (SIDEBAR STAYS LEFT)
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Smaller sidebar */
+  .sidebar {
+    width: 180px;
+    padding: 20px 10px;
+  }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profile-container h3 {
+    font-size: 0.9rem;
+  }
+
+  .profile-container p {
+    font-size: 0.7rem;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+    padding: 10px;
+  }
+
+  /* Content shifts correctly */
+  .content {
+    margin-left: 180px; /* match sidebar width */
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  /* Stack flex layouts */
+  .about-gallery,
+  .portfolio-split,
+  .resume-split {
+    flex-direction: column;
+  }
+
+  .gallery-item img {
+    height: auto;
+  }
+
+  .qr-img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
